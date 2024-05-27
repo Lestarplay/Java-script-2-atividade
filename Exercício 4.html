@@ -10,9 +10,9 @@
         var valor3 = parseFloat(prompt("Digite o terceiro valor: "))
         var valor1, valor2, valor3
 
-        if(valor1 > valor3 && valor2 > valor3){
+        if(valor1 > valor3 + valor2 > valor3){
             alert("A soma do valor " + valor1, " e ", + valor2, " = ", valor1 + valor2)
-        }else if(valor2 > valor1 && valor2 > valor3){
+        }else if(valor2 > valor1 + valor2 > valor3){
             alert("A soma do valor " + valor2, " e ", +valor3, " = ", valor2+valor3)
         }
         else{
